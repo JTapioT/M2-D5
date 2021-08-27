@@ -1,0 +1,11 @@
+body{
+    color:whitesmoke;
+    background-color: #141414;
+}
+.name-custom-color{
+    background-color: #666666;
+};
+.custom-select{
+    color: white;
+    background-color: black ;
+}
