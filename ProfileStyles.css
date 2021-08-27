@@ -9,3 +9,9 @@ body{
     color: white;
     background-color: black ;
 }
+.maturity-custom-background{
+    background-color:darkslategray;
+}
+.btn{
+    width: 100%
+}
