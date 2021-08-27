@@ -1,17 +1,32 @@
 body{
     color:whitesmoke;
     background-color: #141414;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
 }
 .name-custom-color{
     background-color: #666666;
 };
 .custom-select{
     color: white;
-    background-color: black ;
+    background-color: black;
 }
 .maturity-custom-background{
     background-color:darkslategray;
 }
-.btn{
-    width: 100%
+.custom-button{
+    border-radius: 0px;
+    color: gray;
+    font-family: 'Inconsolata', monospace;
+    font-weight:800;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: 2px solid gray;
+    cursor:pointer;
+    overflow: hidden; 
+}
+.custom-button:hover{
+    background-color: white;
+    color: black;
+    border: none;
 }
