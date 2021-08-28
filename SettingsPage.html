@@ -15,28 +15,55 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg" id="navbar-custom">
-      <a class="navbar-brand" href="#">
-        <img class="img-fluid" width="100px" height="100px"
-          src="./01_Netflix_Logo/01_Netflix_Logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-custom navbar-expand-lg ">
+      <a class="navbar-brand" href="#"><img src="./assets/netflix_logo.png" width="120"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Movies
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Recently Added</a>
+                      <a class="dropdown-item" href="#">My List</a>
+                      <a class="dropdown-item" href="#">Others</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+          </ul>
+          <div>
+              <img src="./assets/search_logo.svg" width="22" height="22" />
+              <span style="color: rgb(206, 197, 197);" class="d-inline-block pl-1 ">Kids</span>
+              <div class="dropdown d-inline-block">
+                  <a class="btn nav-btn dropdown-toggle" href="profile.html" role="button" id="dropdownMenuLink"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="./Profile-picture.PNG" width="32" height="32" class="img-thumbnail" />
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="profile.html">Sakib</a>
+                      <a class="dropdown-item" href="profile.html">Juha</a>
+                      <a class="dropdown-item" href="profile.html">Cian</a>
+                  </div>
+              </div>
+              
+          </div>
       </div>
-    </nav>
+  </nav>
 
   </header>
 
@@ -70,9 +97,9 @@
                         <p>Phone: 123 456 789</p>
                       </div>
                       <div class="col-6 personal-data-right">
-                        <p>Change account email</p>
-                        <p>Change password</p>
-                        <p>Change phone number</p>
+                        <p><a href="google.com">Change account email</a></p>
+                        <p><a href="google.com">Change password</a></p>
+                        <p><a href="google.com">Change phone number</a></p>
                       </div>
                   </div>
 
@@ -81,15 +108,15 @@
                       <p>Paypal</p><span>admin@strive.school</span>
                     </div>
                     <div class="col-6 personal-data-right">
-                      <p>Update payment info</p>
-                      <p>Billing details</p>
+                      <p><a  href="google.com">Update payment info</a></p>
+                      <p><a href="google.com">Billing details</a></p>
                     </div>
                 </div>
 
                 <div class="row"> <!---bottom row--->
                   <div class="col-12 personal-data-right">
-                    <p><a>Redeem gift card promo code</a></p>
-                    <p>Where to buy gift cards</p>
+                    <p><a href="google.com">Redeem gift card promo code</a></p>
+                    <p><a href="google.com">Where to buy gift cards</a></p>
                   </div>
               </div>
 
@@ -100,7 +127,7 @@
           </div><!---Membership & billing row ends-->
 
 
-          <div class="row"> <!---Plan details row-->
+          <div class="row" style="border-bottom: 1px solid #666666;"> <!---Plan details row-->
               <div class="col-3 personal-data-left">
                 <p>PLAN DETAILS</p>
               </div>
@@ -108,27 +135,59 @@
                 <P>Premium</P>
               </div>
               <div class="col-4 personal-data-right">
-                <p>Change plan</p>
+                <p><a href="google.com">Change plan</a></p>
               </div>
 
 
           </div> <!---Plan details row ends-->
 
-          <div class="row"> <!---settings row-->
-            <div class="col-3">
+          <div class="row"  style="border-bottom: 1px solid #666666;"> <!---settings row-->
+            <div class="col-3 personal-data-left">
               <p>SETTINGS</p>
             </div>
-            <div class="col-9">
-              <P><a>Parental controls</a></P>
-              <P><a>Test participation</a></P>
-              <P><a>Manage download devices</a></P>
-              <P><a>Activate a device</a></P>
-              <P><a>Recent device streaming activity</a></P>
-              <P><a>Sign out of all devices</a></P>
+            <div class="col-9 personal-data-left">
+              <P><a href="google.com">Parental controls</a></P>
+              <P><a href="google.com">Test participation</a></P>
+              <P><a href="google.com">Manage download devices</a></P>
+              <P><a href="google.com">Activate a device</a></P>
+              <P><a href="google.com">Recent device streaming activity</a></P>
+              <P><a href="google.com">Sign out of all devices</a></P>
             </div>
 
 
         </div> <!---settings row ends-->
+
+        <div class="row"> <!---MY PROFILE ROW STARTS-->
+            <div class="col-3 personal-data-left">
+              <p>MY PROFILE</p>
+            </div>
+            <div class="col-5">
+              <span class="username"><img src="./Profile-picture.PNG" width="32" height="32">Strive.student</span>
+              <p><a></a></p>
+              <p><a></a></p>
+              <p><a></a></p>
+          
+            </div>
+            <div class="col-4 personal-data-right">
+              <p><a href="google.com">Manage profiles</a></p>
+              <p><a href="google.com">Add profile email</a></p>
+            </div>
+        </div><!---MY PROFILE ROW ENDS-->
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3 personal-data-left">
+              <p><a href="google.com">Language</a></p>
+              <p><a href="google.com">Playback settings</a></p>
+              <p><a href="google.com">Subtitle appearance</a></p>
+
+            </div>
+            <div class="col-3 personal-data-right">
+              <p><a href="google.com">Viewing activity</a></p>
+              <p><a href="google.com">Ratings</a></p>
+
+            </div>
+            <div class="col-3"></div>
+        </div>
 
         </div><!---large central column ends-->
 

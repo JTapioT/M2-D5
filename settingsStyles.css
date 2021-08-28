@@ -2,6 +2,11 @@ body{
     background-color: rgb(245, 244, 244);
     color: gray;
 }
+.navbar-custom{
+    background-color: black;
+    background-repeat: repeat-x;
+  }
+
 .navbar-brand{
     width: 300px;
     height:40px
@@ -26,4 +31,10 @@ body{
 .personal-data-left{
     text-align: left;
     padding: 0;
+}
+.username{
+    display: inline;
+}
+.link{
+    color: #034deb;
 }
